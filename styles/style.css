@@ -27,10 +27,16 @@ footer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    width: 35%;
+    width: 35.5%;
 }
 
 .menu-list {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0em;
     list-style-type: circle;
     gap: 32px;
     display: flex;
@@ -39,6 +45,7 @@ footer {
 }
 
 .header-logo {
+    margin-left: 36px;
     width: 148px;
     height: 105px;
 }
@@ -101,6 +108,7 @@ footer {
     font-weight: 700;
     font-size: 100px;
     line-height: 115%;
+    letter-spacing: 0.3em;
     text-transform: uppercase;
     color: white;
 }
